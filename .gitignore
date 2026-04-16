@@ -1,0 +1,10 @@
+# Bytecode
+*.py[cod]
+__pycache__/
+
+# Environment
+venv/
+
+# Tool Caches
+.mypy_cache/
+.pytest_cache/

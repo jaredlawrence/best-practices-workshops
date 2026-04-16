@@ -1,0 +1,25 @@
+[project]
+name = "best-practices-workshops"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov",
+    "mypy",
+    "ruff",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["test"]
+pythonpath = ["src", "problems"]
+
+[tool.mypy]
+mypy_path = ["src", "problems"]
+ignore_missing_imports = true
