@@ -19,20 +19,20 @@ Disclaimer: The vast majority of the code was created using LLMs. I make no clai
 ## Commands to get the code and replicate the environment locally
 Step 1 - Clone the repository
 ```bash
-git clone https://github.com/<your-username>/best-practices-workshops.git
+git clone https://github.com/jaredlawrence/best-practices-workshops.git
 cd best-practices-workshops
 ```
 
 Step 2 - Create and activate a virtual environment
 
 ```PowerShell
-# Windows
+# Windows (PowerShell)
 python -m venv venv
 venv\Scripts\activate
 ```
 
 ```bash
-# Mac/Linux
+# Mac/Linux (Bash, Zsh, or Git Bash)
 python -m venv venv
 source venv/bin/activate
 ```
